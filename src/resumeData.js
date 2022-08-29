@@ -16,6 +16,11 @@ let resumeData = {
       url: "https://github.com/galarzahys",
       className: "fa fa-github",
     },
+    {
+      name: "whatsapp",
+      url: "https://wa.me/5492645093292",
+      className: "fa fa-phone",
+    },
 
   ],
   aboutme: `I am currently undergoing the last stage of training as a Full Stack Web Developer at Numen Academy, and training in agile SCRUM methodologies by participating in the Alkemy project. In addition to that, I have already completed and obtained certifications in the area, and I continue studying to keep my knowledge updated.`,
