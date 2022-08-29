@@ -18,7 +18,7 @@ export default class Porfolio extends Component {
               return(
                 <div className="columns portfolio-item">
                     <a
-    href="http://www.wifeo.com/code"
+    href={item.url}
     style={{ textDecoration: "none" }}
     target="parent"
   >
@@ -28,7 +28,7 @@ export default class Porfolio extends Component {
   <p style={{fontSize: "small"}}>{item.type}</p>
     <div class="shadow_swhow_mini">
       <div class="deroul_titre">{item.description}</div>
-      <div class="deroul_soustitre">{item.url}</div>
+      <div class="deroul_soustitre">Click to see the repository</div>
     </div>
   </div>
   </a>

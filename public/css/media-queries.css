@@ -1,10 +1,6 @@
-/* ==================================================================
-
-*   Ceevee Media Queries
-*   url: styleshout.com
-*   03-18-2014
-
-/* ================================================================== */
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,500;1,400&display=swap');
 
 
 /* screenwidth less than 1024px
@@ -14,7 +10,7 @@
     /* header styles
    ------------------------------------------------------------------ */
    header .banner-text h1 {
-      font: 80px/1.1em 'opensans-bold', sans-serif;
+      font: 80px/1.1em 'Ubuntu', serif;;
       letter-spacing: -1px;
       margin: 0 auto 12px auto;
    }
@@ -29,11 +25,11 @@
    ------------------------------------------------------------------ */
    header .banner { padding-bottom: 12px; }
    header .banner-text h1 {
-      font: 78px/1.1em 'opensans-bold', sans-serif;
+      font: 78px/1.1em 'Righteous', sans-serif;
       letter-spacing: -1px;      
    }
    header .banner-text h3 {
-      font: 17px/1.9em 'librebaskerville-regular', serif;
+      font: 17px/1.9em 'Ubuntu', serif;
       width: 80%;
    }
    header .banner-text hr {
@@ -42,7 +38,7 @@
    }
    /* nav-wrap */
    #nav-wrap {
-      font: 11px 'opensans-bold', sans-serif;
+      font-size: 11px;
       letter-spacing: 1.5px;
    }
 
@@ -59,24 +55,14 @@
 
    /* Resume Section
    ------------------------------------------------------------------- */
-   #resume h1 { font: 16px/24px 'opensans-bold', sans-serif; }
+   #resume h1 { font: 16px/24px 'Ubuntu', serif; }
    #resume .main-col { padding-right: 5%; }   
 
-   /* Testimonials Section
-   ------------------------------------------------------------------- */
-   #testimonials .header-col h1:before {
-      font-size: 66px;
-      line-height: 66px;
-   }
-   #testimonials blockquote p {
-      font-size: 22px;
-      line-height: 46px;      
-   }
 
     /* Call to Action Section
    ------------------------------------------------------------------- */
    #call-to-action .header-col h1:before {
-      font-size: 66px;
+      font: 66px 'Ubuntu', serif;
       line-height: 66px;
    }
 
@@ -191,7 +177,7 @@
       padding-bottom: 12px;
       padding-top: 6px;
    }
-   header .banner-text h1 { font: 68px/1.1em 'opensans-bold', sans-serif; }
+   header .banner-text h1 { font: 68px/1.1em 'Righteous', sans-serif; }
    header .banner-text h3 {
       font: 16px/1.9em 'librebaskerville-regular', serif;
       width: 85%;
@@ -215,14 +201,24 @@
 
    /* About Section
    -------------------------------------------------------------------- */
-   #about .profile-pic { display: none; }
+   #about {
+      height: fit-content;
+   }
+
+   #about .profile-pic { 
+      width: 50%;
+      height: auto;
+    }
    #about .download .button {
       width: 100%;
       height: 100%;
       text-align: center;
       padding: 15px 20px;
    }
-   #about .main-col { padding-right: 30px; }
+   #about .main-col { 
+      padding-right: 30px;
+      height: auto; 
+}
 
 
    /* Resume Section
@@ -231,9 +227,17 @@
       padding-top: 0;
       margin-bottom: 48px;
       text-align: center;
+      justify-content: center;
    }
    #resume h1 { letter-spacing: 3px; }
-   #resume .main-col { padding-right: 30px; }
+   #resume .main-col { 
+      padding-right: 30px;
+      text-align: center;
+      justify-content: center; 
+   }
+
+
+   
    #resume h3, #resume .info { text-align: center; }
       
    .bars { width: 100%; }
@@ -255,26 +259,14 @@
 
    /* Portfolio Section
    /* ----------------------------------------------------------------- */
-   #portfolio-wrapper .columns { margin-bottom: 40px; }
+   #portfolio-wrapper .columns { 
+      margin-bottom: 40px;
+      text-align: center;
+      justify-content: center; 
+   }
    .popup-modal {	max-width: 85%; }
 
 
-   /* Testimonials Section
-   ----------------------------------------------------------------------- */
-   #testimonials .text-container { text-align: center; }
-   #testimonials h1 {
-      font: 16px/24px 'opensans-bold', sans-serif;
-      text-align: center;
-      margin-bottom: 30px;
-      text-shadow: 0px 1px 3px rgba(0, 0, 0, 1);
-   }
-   #testimonials h1 span { display: block; }
-   #testimonials .header-col h1:before { content: none; }
-   #testimonials blockquote { padding-bottom: 24px; }
-   #testimonials blockquote p {
-      font-size: 20px;
-      line-height: 42px;      
-   }
 
    /* Control Nav */
    .flex-control-nav {
@@ -285,7 +277,11 @@
 
    /* contact Section
    ----------------------------------------------------------------------- */
-   #contact { padding-bottom: 66px; }
+   #contact { 
+      padding-bottom: 66px;
+      text-align: center;
+      justify-content: center;
+    }
    #contact .section-head { margin-bottom: 12px; }
    #contact .section-head h1 {
       font: 16px/24px 'opensans-bold', sans-serif;            
@@ -303,13 +299,20 @@
       float: none;
       width: 100%;
    }
+
+
    #contact input,
    #contact textarea,
    #contact select {
      	margin-bottom: 6px;    	
       width: 100%;
    }
-   #contact button.submit { margin: 30px 0 24px 0; }
+   #contact button.submit { 
+      margin: 30px 0 24px 0;
+      width: 100%; 
+      text-align: center;
+      justify-content: center;
+   }
    #message-warning, #message-success {
       width: 100%;
       margin-left: 0;
@@ -352,7 +355,7 @@
    -------------------------------------------------------------------- */
    header .banner { padding-top: 24px; }
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
+      font: 40px/1.1em 'Righteous', sans-serif;      
       margin: 0 auto 24px auto;
    }
    header .banner-text h3 {

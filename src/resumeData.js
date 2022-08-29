@@ -16,11 +16,7 @@ let resumeData = {
       url: "https://github.com/galarzahys",
       className: "fa fa-github",
     },
-    {
-      name: "skype",
-      url: "",
-      className: "fa fa-twitter",
-    },
+
   ],
   aboutme: `I am currently undergoing the last stage of training as a Full Stack Web Developer at Numen Academy, and training in agile SCRUM methodologies by participating in the Alkemy project. In addition to that, I have already completed and obtained certifications in the area, and I continue studying to keep my knowledge updated.`,
   worker:
@@ -130,25 +126,25 @@ let resumeData = {
       name: "ONG Somos más",
       type: "Full Stack Project",
       description: "React/Node",
-      url: "images/portfolio/phone.jpg",
+      url: "https://somosmasonggg.netlify.app/",
     },
     {
       name: "Northern Lights",
       type: "Full Stack Project",
       description: "React/Node",
-      url: "images/portfolio/project.jpg",
+      url: "https://nlh.netlify.app/",
     },
     {
       name: "E-commerce",
       type: "Frontend",
       description: "React",
-      url: "images/portfolio/project2.png",
+      url: "https://drumshop.netlify.app/",
     },
     {
       name: "Project 4",
       type: "In progress",
       description: "python",
-      url: "images/portfolio/phone.jpg",
+      url: "#",
     },
   ],
 };
