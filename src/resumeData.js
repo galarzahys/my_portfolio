@@ -131,7 +131,7 @@ let resumeData = {
       name: "ONG Somos más",
       type: "Full Stack Project",
       description: "React/Node",
-      url: "https://somosmasonggg.netlify.app/",
+      url: "https://somosmasgg.netlify.app/",
     },
     {
       name: "Northern Lights",
