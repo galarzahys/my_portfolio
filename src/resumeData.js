@@ -125,24 +125,35 @@ let resumeData = {
       skillname: "MySQL",
       skill_img: "../images/Skills/mysql.png",
     },
+    {
+      skillname: "SCRUM",
+      skill_img: "../images/Skills/scrum.png",
+    },
+    {
+      skillname: "GIT",
+      skill_img: "../images/Skills/git.png",
+    },
   ],
   portfolio: [
     {
       name: "ONG Somos más",
       type: "Full Stack Project",
       description: "React/Node",
+      image: "somosmas.png",
       url: "https://somosmasgg.netlify.app/",
     },
     {
       name: "Northern Lights",
       type: "Full Stack Project",
       description: "React/Node",
-      url: "https://nlh.netlify.app/",
+      image: "nlh.png",
+      url: "https://northernlightshunters.netlify.app/",
     },
     {
       name: "E-commerce",
       type: "Frontend",
       description: "React",
+      image: "drumshop.png",
       url: "https://drumshop.netlify.app/",
     },
     {

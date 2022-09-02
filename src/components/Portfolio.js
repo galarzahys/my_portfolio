@@ -16,19 +16,20 @@ export default class Porfolio extends Component {
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{
               return(
-                <div className="columns portfolio-item">
+                <div className="columns portfolio-item" >
+                  <h2 style={{fontSize: "large", textAlign: "center"}}>{item.name}</h2>
                     <a
     href={item.url}
     style={{ textDecoration: "none" }}
     target="parent"
   >
   <div
-    class="carreaux_presentation_light"
+    class="carreaux_presentation_light" 
   > <h2 style={{fontSize: "large"}}>{item.name}</h2>
   <p style={{fontSize: "small"}}>{item.type}</p>
-    <div class="shadow_swhow_mini">
+    <div class="shadow_swhow_mini" style={{ backgroundImage: `url('/images/portfolio/${item.image}')`, backgroundSize: "cover"}}>
       <div class="deroul_titre">{item.description}</div>
-      <div class="deroul_soustitre">Click to see the repository</div>
+      <div class="deroul_soustitre">Click to visit the deployed site</div>
     </div>
   </div>
   </a>
