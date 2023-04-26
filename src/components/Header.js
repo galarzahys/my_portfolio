@@ -23,6 +23,7 @@ export default class Header extends Component {
                <h1 className="responsive-headline">I'm {resumeData.name}.</h1>
                <h2 className="responsive-headline">I'm a {resumeData.role}</h2>
                <h3>{resumeData.roleDescription}</h3>
+               <h3>{resumeData.roleDescription2}</h3>
                <hr/>
                <ul className="social">
                   {

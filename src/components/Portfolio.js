@@ -12,6 +12,11 @@ export default class Porfolio extends Component {
         <div className="twelve columns collapsed">
           <h1 style={{color: "#191919", fontWeight: "600"}}>This portfolio was created by me.</h1>
           <h1 style={{color: "#191919", fontWeight: "600"}}>But you can check some of my others works too.</h1>
+          <h1 style={{color: "#F0603F", fontWeight: "600", marginBottom: "10px"}}>(outdated)</h1>
+          <div style={{width: "100%", display: "flex", justifyContent: "center", marginBottom: "30px" }}>
+          <img src='../images/in progress.png' alt={'inprogress'} className="skill_img"/>
+          </div>
+          
           <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
           {
             resumeData.portfolio && resumeData.portfolio.map((item)=>{

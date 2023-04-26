@@ -1,10 +1,10 @@
 let resumeData = {
   name: "Gonzalo Galarza",
-  role: "Full Stack Web Developer",
+  role: "Full Stack Developer",
   linkedinId: "Your LinkedIn Id",
   skypeid: "Your skypeid",
-  roleDescription: `Every day I try to gain new knowledge and take on challenges to put it into practice.
-                    I like the team work to enrich my professional and personal development.`,
+  roleDescription: `Every day I try to acquire new knowledge and accept challenges to put them into practice.`,
+  roleDescription2: `I like working in a team to enrich my professional and personal development.`,
   socialLinks: [
     {
       name: "linkedin",
@@ -23,11 +23,12 @@ let resumeData = {
     },
 
   ],
-  aboutme: `I am currently undergoing the last stage of training as a Full Stack Web Developer at Numen Academy, and training in agile SCRUM methodologies by participating in the Alkemy project. In addition to that, I have already completed and obtained certifications in the area, and I continue studying to keep my knowledge updated.`,
+  aboutme: `I would describe myself as a person who likes challenges, learning and constant development. I have always had the ability to solve problems and make decisions based on a comprehensive analysis of the context, information and tools at my disposal.`,
   worker:
-    "I'm a responsible and committed worker, with a systemic vision of each work environment. I think flexibility and good comunication its the key to find innovative solutions.",
-  hobbies:
-    "I love to travel, play music and outdoor activities. I play drums and guitar, but i would like to learn to play sax too.",
+    "As a member of a working group, I am a respectful, responsible and committed person with the proposed goals, with autonomy and a good relationship with the working group.",
+  leader: `As a leader, I see myself like as a reference person, as I react quickly and understand different situations that require analysis and good communication. I am a person focused on results, but also thinking of solid and adaptable solutions for different contexts.`,
+    hobbies:
+    "In my personal life I am a very friendly and fun person. I like outdoor activities, playing music, I am a drummer by the way, and always being open to learn about different cultures and customs that lead me to live new experiences.",
   address: "Brasil",
   website: "",
   languages: [
@@ -73,6 +74,12 @@ let resumeData = {
   ],
   work: [
     {
+      CompanyName: "Musimundo",
+      specialization: "Full Stack Software Developer",
+      startData: "October 2022",
+      endData: "Present",
+    },
+    {
       CompanyName: "Alkemy",
       specialization: "Job Ready Certificate - SCRUM methodology",
       startData: "July 2022",
@@ -94,40 +101,44 @@ let resumeData = {
   skillsDescription: "Your skills here",
   skills: [
     {
-      skillname: "HTML5",
-      skill_img: "../images/Skills/html.png",
+      skillname: "Angular",
+      skill_img: "../images/Skills/angular.png",
     },
     {
-      skillname: "CSS",
-      skill_img: "../images/Skills/css.png",
-    },
+      skillname: ".NET",
+      skill_img: "../images/Skills/net.png",
+    }, 
     {
-      skillname: "JavaScript",
-      skill_img: "../images/Skills/js.png",
+      skillname: "React",
+      skill_img: "../images/Skills/react.png",
     },
     {
       skillname: "NodeJS",
       skill_img: "../images/Skills/nodejs.png",
     },
     {
-      skillname: "React",
-      skill_img: "../images/Skills/react.png",
+      skillname: "C#",
+      skill_img: "../images/Skills/c.png",
+    },
+    {
+      skillname: "JavaScript",
+      skill_img: "../images/Skills/js.png",
     },
     {
       skillname: "Redux",
       skill_img: "../images/Skills/redux.png",
     },
     {
-      skillname: "Python",
-      skill_img: "../images/Skills/python.png",
-    },
-    {
       skillname: "MySQL",
       skill_img: "../images/Skills/mysql.png",
     },
     {
-      skillname: "SCRUM",
-      skill_img: "../images/Skills/scrum.png",
+      skillname: "HTML5",
+      skill_img: "../images/Skills/html.png",
+    },
+    {
+      skillname: "CSS",
+      skill_img: "../images/Skills/css.png",
     },
     {
       skillname: "GIT",

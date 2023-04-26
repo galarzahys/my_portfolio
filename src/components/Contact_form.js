@@ -77,7 +77,7 @@ const ContactForm = () => {
           isSubmitting,
         }) => (
 
-          <Form className="form">
+          <Form className="form" style={{display: "flex", flexDirection: "column", alignItems: "center", justifyContent: "center"}}>
                <Field 
                className = "form_input"
                name="name"
